@@ -1,12 +1,16 @@
 import React from 'react'
-import IntroUseR from './components/UseReducer/IntroUseR'
+
+import CounterReducer from './components/UseReducer/CounterReducer'
 
 const App = () => {
   return (
     <div>
-        <IntroUseR/>
+        <CounterReducer/>
     </div>
   )
 }
 
 export default App
+
+
+
