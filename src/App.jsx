@@ -1,11 +1,11 @@
 import React from 'react'
-
-import CounterReducer from './components/UseReducer/CounterReducer'
+import FocusInput from './components/UseRef/FocusInput'
+import Timer from './components/UseRef/Timer'
 
 const App = () => {
   return (
     <div>
-        <CounterReducer/>
+      <Timer/>
     </div>
   )
 }
